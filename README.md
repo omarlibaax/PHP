@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Web Application Development — PHP & MySQL
 
 <p align="center">
@@ -771,3 +772,78 @@ Course:
 
 This README is organized from the provided **Web Application Development — PHP & MySQL** course material. The course material identifies PHP, MySQL, HTML, JavaScript, jQuery, CSS, AJAX, JSON, RESTful APIs, authentication, authorization, security, MVC, Laravel fundamentals, and complete PHP/MySQL application development as key areas of study.
 
+# PHP Introduction Examples
+
+This folder contains beginner PHP examples in `Example1.php`.
+
+## Topics Covered
+
+- Basic PHP output with `echo` and `print`
+- Using more than one parameter with `echo`
+- Using `print` in a ternary operator
+- The difference between single and double quotation marks
+- Variable interpolation in double-quoted strings
+
+## Requirements
+
+- XAMPP, WAMP, or another PHP web server
+- PHP enabled and the Apache server running
+
+## Run with XAMPP
+
+1. Place this folder inside the web server document root:
+
+   ```text
+   C:\xampp\htdocs\Week1
+   ```
+
+2. Start **Apache** from the XAMPP Control Panel.
+3. Open the example in a browser:
+
+   ```text
+   http://localhost/Week1/Example1.php
+   ```
+
+## Example Details
+
+### `echo` and `print`
+
+Both constructs display text in the browser. `echo` can accept multiple parameters, while `print` accepts one parameter and returns a value.
+
+### Ternary Operator
+
+The example compares `$x` and `$y` and uses `print` to display the result:
+
+```php
+($x < $y)
+    ? print "$x is less than $y"
+    : print "$x is greater than $y";
+```
+
+### Quotation Marks
+
+Single-quoted strings display variable names literally:
+
+```php
+echo 'Hellow $a';
+```
+
+Double-quoted strings replace variables with their values:
+
+```php
+echo "Hellow $a";
+```
+
+## Syntax Check
+
+From the `Week1` folder, run:
+
+```powershell
+C:\xampp\php\php.exe -l Example1.php
+```
+
+A successful check reports:
+
+```text
+No syntax errors detected in Example1.php
+```
