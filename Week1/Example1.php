@@ -35,19 +35,24 @@
     echo "<h2>Quotation Marks</h2>";
 
     $a = 10;
-    echo 'Hellow $a<br>';
-    echo "Hellow $a<br>";
+    echo 'Hello $a<br>';
+    echo "Hello $a<br>";
 
+    echo "<h2>While Loop</h2>";
     $count = 1;
 
-    while ($count <=5){
-        echo $count ; <br>
+    while ($count <= 5) {
+        echo $count . "<br>";
         $count++;
     }
 
+    echo "<h2>Do-While Loop</h2>";
+    $number = 1;
+
     do {
-        echo 
-    }
+        echo $number . "<br>";
+        $number++;
+    } while ($number <= 5);
 
 
     ?>
