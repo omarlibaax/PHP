@@ -38,6 +38,18 @@
     echo 'Hellow $a<br>';
     echo "Hellow $a<br>";
 
+    $count = 1;
+
+    while ($count <=5){
+        echo $count ; <br>
+        $count++;
+    }
+
+    do {
+        echo 
+    }
+
+
     ?>
 </body>
 </html>
