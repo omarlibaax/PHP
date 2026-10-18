@@ -16,7 +16,7 @@ The file contains solutions for the following tasks:
 8. Generate a multiplication table from 1 to 12 using nested loops.
 9. Check whether a number is prime or not.
 10. Print all prime numbers between 10 and 50.
-
+ 
 ## Run the Program
 
 1. Start Apache in the XAMPP Control Panel.
